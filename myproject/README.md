@@ -64,7 +64,7 @@ myproject/
 
 ## Setup Instructions
 
-### 1. Clone/Download Project
+### 1. Clone OR Download Project
 
 Place the `myproject` folder in your development environment.
 
