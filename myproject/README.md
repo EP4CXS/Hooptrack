@@ -1,4 +1,4 @@
-# MyProject
+# MyProject in Programming Languages
 
 A scalable, professional Django project scaffold implementing a clean layered architecture with domain separation.
 
