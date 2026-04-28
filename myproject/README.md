@@ -1,4 +1,4 @@
-# MyProject
+# MyProject in Programming Languages
 
 A scalable, professional Django project scaffold implementing a clean layered architecture with domain separation.
 
@@ -56,7 +56,7 @@ myproject/
 
 1. **Domain Separation**: Each major layer uses subfolders for domains (admin, user, auth) rather than single monolithic files
 2. **Split Settings**: Configuration split by environment (base/local/production)
-3. **Service Layer**: Business logic isolated from views
+3. **Service Layer**: Business logic isolated from UI
 4. **Request Validation**: Dedicated request objects for input validation
 5. **Selector Pattern**: Query logic separated from business logic
 6. **API First**: Clear separation between web views and API endpoints
@@ -64,7 +64,7 @@ myproject/
 
 ## Setup Instructions
 
-### 1. Clone/Download Project
+### 1. Clone OR Download Project
 
 Place the `myproject` folder in your development environment.
 
