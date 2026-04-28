@@ -23,12 +23,12 @@ myproject/
 ├── config/             
 │   ├── settings/       
 │   │   ├── base.py     
-│   │   ├── local.py     # Development overrides
-│   │   └── production.py # Production overrides
-│   ├── urls.py          # Main URL configuration
-│   └── asgi.py/wsgi.py  # ASGI/WSGI entry points
+│   │   ├── local.py    
+│   │   └── production.py 
+│   ├── urls.py          
+│   └── asgi.py/wsgi.py 
 │
-├── core/               # Main application
+├── core/              
 │   ├── models/         # Domain-separated models
 │   │   ├── admin/      # Admin domain models
 │   │   └── user/       # User domain models
