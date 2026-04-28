@@ -29,10 +29,10 @@ myproject/
 │   └── asgi.py/wsgi.py 
 │
 ├── core/              
-│   ├── models/         # Domain-separated models
-│   │   ├── admin/      # Admin domain models
-│   │   └── user/       # User domain models
-│   ├── views/          # Domain-separated views
+│   ├── models/        
+│   │   ├── admin/      
+│   │   └── user/       
+│   ├── views/         
 │   │   ├── auth/
 │   │   ├── admin/
 │   │   └── user/
