@@ -20,9 +20,9 @@ The architecture follows a layered approach where each major layer (models, view
 
 ```
 myproject/
-├── config/              # Project configuration
-│   ├── settings/        # Split settings (base, local, production)
-│   │   ├── base.py      # Common settings across all environments
+├── config/             
+│   ├── settings/       
+│   │   ├── base.py     
 │   │   ├── local.py     # Development overrides
 │   │   └── production.py # Production overrides
 │   ├── urls.py          # Main URL configuration
