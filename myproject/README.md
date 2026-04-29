@@ -40,9 +40,9 @@ myproject/
 │   ├── requests/       
 │   ├── selectors/      
 │   ├── api/            
-│   ├── urls/           # App-level URL configs
-│   ├── middleware/     # Custom middleware
-│   ├── utils/          # Utility functions
+│   ├── urls/           
+│   ├── middleware/     
+│   ├── utils/          
 │   ├── forms/          # Django forms
 │   └── tests/          # Domain-separated tests
 │
