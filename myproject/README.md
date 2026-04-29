@@ -36,10 +36,10 @@ myproject/
 │   │   ├── auth/
 │   │   ├── admin/
 │   │   └── user/
-│   ├── services/       # Business logic layer
-│   ├── requests/       # Request validation layer (DTOs/forms)
-│   ├── selectors/      # Data retrieval layer (queries)
-│   ├── api/            # REST API (views, serializers, urls, permissions)
+│   ├── services/       
+│   ├── requests/       
+│   ├── selectors/      
+│   ├── api/            
 │   ├── urls/           # App-level URL configs
 │   ├── middleware/     # Custom middleware
 │   ├── utils/          # Utility functions
