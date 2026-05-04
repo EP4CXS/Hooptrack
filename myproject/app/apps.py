@@ -24,7 +24,7 @@ class CoreConfig(AppConfig):
     services, and API endpoints.
     """
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'core'
+    name = 'app'
 
     def ready(self):
         """

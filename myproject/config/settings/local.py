@@ -12,6 +12,14 @@ DEBUG = True
 # Allow all hosts in development
 ALLOWED_HOSTS = ['*']
 
+# Use SQLite for local development instead of PostgreSQL
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 # Email backend for development (prints to console)
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
@@ -25,9 +33,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 STATICFILES_DIRS = [BASE_DIR / 'static']
 
 # Debug toolbar (optional, uncomment to enable)
-# INSTALLED_APPS += ['debug_toolbar']
-# MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware']
-# INTERNAL_IPS = ['127.0.0.1']
+# INSTALLED_APPS += ['\''debug_toolbar'\'']
+# MIDDLEWARE += ['\''debug_toolbar.middleware.DebugToolbarMiddleware'\'']
+# INTERNAL_IPS = ['\''127.0.0.1'\'']
 
 # Django REST Framework - more permissive in development
 REST_FRAMEWORK = {
@@ -39,4 +47,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.AllowAny',
     ),
+    # Base settings enable Anon/User throttling (100 anon/day) — SPA dev exhausts it → HTTP 429.
+    'DEFAULT_THROTTLE_CLASSES': [],
+    'DEFAULT_THROTTLE_RATES': {},
 }

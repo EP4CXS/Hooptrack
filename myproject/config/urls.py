@@ -19,10 +19,10 @@ urlpatterns = [
 
     # Core application URLs (placeholder)
     # Will be organized by domain in core/urls/
-    path('', include('core.urls')),
+    path('', include('app.urls')),
 
     # API endpoints under /api/
-    path('api/', include('core.api.urls')),
+    path('api/', include('app.api.urls')),
 ]
 
 # Serve media files in DEBUG mode

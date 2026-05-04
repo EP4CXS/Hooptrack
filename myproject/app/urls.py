@@ -10,10 +10,7 @@ def healthcheck(_request):
 
 urlpatterns = [
     path("health/", healthcheck, name="healthcheck"),
-    path("", page_view, {"page_name": "home"}, name="home"),
-    path("dashboard/", page_view, {"page_name": "dashboard"}, name="dashboard"),
-    path("login/", page_view, {"page_name": "login"}, name="login"),
-    path("signup/", page_view, {"page_name": "signup"}, name="signup"),
+    path("", page_view, {"page_name": "dashboard"}, name="dashboard"),
     path("analytics/", page_view, {"page_name": "analytics"}, name="analytics"),
     path("players/", page_view, {"page_name": "players"}, name="players"),
     path("players/<int:entity_id>/", page_view, {"page_name": "player-profile"}, name="player-profile"),
