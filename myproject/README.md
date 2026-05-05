@@ -36,6 +36,7 @@ myproject/
 │   │   ├── auth/
 │   │   ├── admin/
 │   │   └── user/
+<<<<<<< HEAD
 │   ├── services/       
 │   ├── requests/       
 │   ├── selectors/      
@@ -43,6 +44,15 @@ myproject/
 │   ├── urls/           
 │   ├── middleware/     
 │   ├── utils/          
+=======
+│   ├── services/      
+│   ├── requests/       
+│   ├── selectors/      
+│   ├── api/            
+│   ├── urls/           # App-level URL configs
+│   ├── middleware/     # Custom middleware
+│   ├── utils/          # Utility functions
+>>>>>>> c13cb066b23c498e1f85da0c755f813fc72c9ee0
 │   ├── forms/          # Django forms
 │   └── tests/          # Domain-separated tests
 │
