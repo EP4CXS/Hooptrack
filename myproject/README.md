@@ -2,8 +2,6 @@
 
 A scalable, professional Django project scaffold implementing a clean layered architecture with domain separation.
 
-## Overview
-
 This project provides a structured foundation for building Django applications with this:
 - Authentication system
 - Admin domain
